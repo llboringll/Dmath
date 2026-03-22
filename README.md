@@ -1,4 +1,8 @@
 # Dmath
+# HW2:15
+
+1.1
+
 | # | Text | Formula (LaTeX) |
 | :-- | :--- | :--- |
 | 1 | IF (P AND Q) THEN R | $(P \land Q) \to R$ |
@@ -9,3 +13,21 @@
 | 6 | IF P THEN Q EQUIVALENT TO NOT P OR Q | $P \to Q \equiv \neg P \lor Q$ |
 | 7 | Euler's Identity | $e^{i\pi} + 1 = 0$ |
 | 8 | SUM of n from 1 to 100 Equals 5050 | $\sum_{n=1}^{100} n = 5050$ |
+
+
+2.2
+
+1. If I do not study, then I will only pass the course if the professor accepts bribes.
+   - Answer: $\neg p \to (q \to r)$
+
+2. If the professor accepts bribes, then I do not study.
+   - Answer: $r \to \neg p$
+
+3. The professor does not accept bribes, but I study and will pass the course.
+   - Answer: $\neg r \land (p \land q)$
+
+4. If I study, the professor will accept bribes and I will pass the course.
+   - Answer: $p \to (r \land q)$
+
+5. I will not pass the course but the professor accepts bribes.
+   - Answer: $\neg q \land r$
